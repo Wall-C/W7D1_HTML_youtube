@@ -1,0 +1,84 @@
+<div id="navbar">
+    <div class="navbar-left">
+        <div>
+            <%= image_tag("menu", id: "navbar-menu", class: "navbar-img") %>
+        </div>
+        <div>
+            <%= image_tag("logo", id: "navbar-logo") %>
+        </div>
+        <div>
+            <form id="search_bar">
+                <div>
+                    <input type="text">
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="navbar-right">
+        <div><span class="helper"></span>
+            <%= image_tag("upload", id: "navbar-upload", class: "navbar-img") %>
+        </div>
+        <div><span class="helper"></span>
+            <%= image_tag("apps", id: "navbar-apps", class: "navbar-img") %>
+        </div>
+        <div><span class="helper"></span>
+            <%= image_tag("notif", id: "navbar-notif", class: "navbar-img") %>
+        </div>
+        <div><span class="helper"></span>
+            <%= image_tag("profile", id: "navbar-profile", class: "navbar-img") %>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div id="video">
+        <div id="media" class="block">
+            <iframe id="yt_video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="video-uploader" class="block">
+            <div id="uploader-details">
+                <h1> Rick Astley - Never gonna give you up</h1>
+                <div id="uploader">
+                    <%= image_tag("uploader", id: "uploader_img")%>
+                </div>
+                <div id="subscribe">
+                    <h3>RickAstleyVEVO</h3>
+                    <%= image_tag("subscribe", id: "subscribe_img")%>
+                </div>
+                <h2 id="views_count">123 456 789 vues</h2>
+            </div>
+            <div id="interaction">
+                <div class="interaction-item"><span class="helper"></span>
+                    <%= image_tag("plus", id: "interaction-plus", class: "navbar-img") %>Ajouter à
+                </div>
+                <div class="interaction-item"><span class="helper"></span>
+                    <%= image_tag("share", id: "interaction-share", class: "navbar-img") %>Partager
+                </div>
+                <div class="interaction-item"><span class="helper"></span>
+                    <%= image_tag("more", id: "interaction-more", class: "navbar-img") %>Plus
+                </div>
+                <div class="right ib">
+                    <div class="interaction-item"><span class="helper"></span>
+                        <%= image_tag("like", id: "interaction-like", class: "navbar-img") %>1234
+                    </div>
+                    <div class="interaction-item"><span class="helper"></span>
+                        <%= image_tag("dislike", id: "interaction-dislike", class: "navbar-img") %>4321
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="video-info" class="block">
+        </div>
+        <div id="comments" class="block">
+        </div>
+    </div>
+</div>
+<div id="related">
+    <p> Lorem ipsum </p>
+    <div id="following">
+    </div>
+    <div id="suggestions">
+    </div>
+</div>

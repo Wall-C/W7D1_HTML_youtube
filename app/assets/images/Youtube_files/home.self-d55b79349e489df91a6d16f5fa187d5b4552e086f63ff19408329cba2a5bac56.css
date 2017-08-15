@@ -1,0 +1,147 @@
+/* line 5, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#navbar {
+  background-color: #F1F1F1;
+  width: 100%;
+  position: fixed;
+  height: 3em;
+  border-bottom: 1px solid #666666;
+  z-index: 1000;
+}
+
+/* line 14, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#navbar div {
+  display: inline-block;
+}
+
+/* line 18, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.navbar-img {
+  height: 1.5em;
+  width: 1.5em;
+  margin: auto 0.5em;
+}
+
+/* line 24, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#navbar-logo {
+  height: 2em;
+  margin: 0.5em 0.5em;
+}
+
+/* line 29, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#search_bar {
+  display: inline-block;
+}
+
+/* line 32, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 38, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#search_bar input {
+  height: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* line 44, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#search_bar input[type=text] {
+  margin: auto 0em auto 0.5em;
+}
+
+/* line 48, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#search_bar input[type=submit] {
+  background-image: url(/assets/search-70d6e553b69d97f84bbea781985b31ce6f1e1653cad08532738d957a11a86dc4.png);
+  margin: auto 0.5em auto 0em;
+}
+
+/* line 53, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.navbar-right {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  vertical-align: middle;
+}
+
+/* line 60, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.navbar-right div {
+  height: 100%;
+}
+
+/* line 64, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.navbar-left {
+  height: 100%;
+}
+
+/* line 68, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#content {
+  background-color: green;
+  position: relative;
+  top: 3em;
+  min-width: 426px;
+  width: 60%;
+  max-width: 1000px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+/* line 79, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#related {
+  background-color: cyan;
+  position: relative;
+  top: 3em;
+  min-width: 213px;
+  width: 30%;
+  max-width: 416px;
+  display: inline-block;
+}
+
+/* line 89, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 97, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#media {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+/* line 104, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#uploader {
+  background-color: blue;
+  display: inline-block;
+}
+
+/* line 110, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+.block {
+  margin-bottom: 1em;
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 117, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#subscribe_img {
+  height: 2em;
+  margin-top: 1em;
+}
+
+/* line 123, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#subscribe {
+  display: inline-block;
+}
+
+/* line 127, /Users/Will/THP/W7D1_HTML_Youtube/youtube/app/assets/stylesheets/home.scss */
+#views_count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

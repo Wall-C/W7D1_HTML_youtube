@@ -1,0 +1,161 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ib{
+	display: inline-block;
+}
+
+#navbar {
+	background-color: #F1F1F1;
+	width: 100%;
+	position: fixed;
+	height: 3em;
+	border-bottom: 1px solid #666666;
+	z-index: 1000;
+}
+
+#navbar div{
+	display: inline-block;
+}
+
+.navbar-img {
+	height: 1.5em;
+	width: 1.5em;
+	margin: auto 0.5em;
+}
+
+#navbar-logo {
+	height: 2em;
+	margin: 0.5em 0.5em;
+}
+
+#search_bar{
+	display: inline-block;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#search_bar input{
+	height: 2.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#search_bar input[type=text]{
+	margin: auto 0em auto 0.5em;
+}
+
+#search_bar input[type=submit]{
+	background-image: image-url('search.png');
+	margin: auto 0.5em auto 0em;
+}
+
+.navbar-right{
+	position:absolute;
+	height:100%;
+	right:0;
+	vertical-align: middle;
+}
+
+.navbar-right div{
+	height:100%;
+}
+
+.navbar-left{
+	height: 100%;
+}
+
+#content{
+	position: relative;
+	top: 3em;
+	min-width: 426px;
+	width: 60%;
+	max-width: 1000px;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#related {
+	background-color: cyan;
+	position: relative;
+	top: 3em;
+	min-width: 213px;
+	width: 30%;
+	max-width: 416px;
+	display: inline-block;
+}
+
+#content iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#media{
+	position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+#uploader {
+	display:inline-block;
+}
+
+#uploader-details{
+	position: relative;
+	border-bottom: 1px solid #666666;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.block{
+	margin-bottom: 1em;
+	background-color: #FFFFFF;
+	display: inline-block;
+	width: 100%;
+	padding: 1em;
+}
+
+#subscribe_img{
+	height: 2em;
+	margin-top: 1em;
+}
+
+
+#subscribe {
+	display:inline-block;
+}
+
+#views_count{
+	position:absolute;
+	right: 0.3em;
+	bottom: 0.3em;
+}
+
+#interaction{
+	width: 100%;
+}
+
+.interaction-item{
+	display:inline-block;
+}
+
+.right{
+	position: absolute;
+	right: 1.3em;
+}
+
+
+
+
+
+
+
+
